@@ -1,0 +1,20 @@
+
+<suite  name="Cross-browser Regression Suite">
+  <test name="chromeTest">
+  <parameter name="browser" value="chrome"/>
+  
+  <classes>
+    <class name="testClasses.UserRegistrationTest"/>
+    <class name="testClasses.SignInTest"/>      
+    </classes>
+    </test>
+    
+    <test name="firefoxTest">
+    <parameter name="browser" value="firefox"/>
+  
+    <classes>
+    <class name="testClasses.UserRegistrationTest"/>
+   <class name="testClasses.SignInTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="testClasses.LandingPageTest" time="15.051" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/aleena/eclipse-workspace/com.simpleproject/target/test-classes:/Users/aleena/eclipse-workspace/com.simpleproject/target/classes:/Users/aleena/.m2/repository/org/seleniumhq/selenium/selenium-java/4.46.0/selenium-java-4.46.0.jar:/Users/aleena/.m2/repository/org/seleniumhq/selenium/selenium-api/4.46.0/selenium-api-4.46.0.jar:/Users/aleena/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/aleena/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.46.0/selenium-chrome-driver-4.46.0.jar:/Users/aleena/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/aleena/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.46.0/selenium-chromium-driver-4.46.0.jar:/Users/aleena/.m2/repository/org/seleniumhq/selenium/selenium-json/4.46.0/selenium-json-4.46.0.jar:/Users/aleena/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.46.0/selenium-manager-4.46.0.jar:/Users/aleena/.m2/repository/org/seleniumhq/selenium/selenium-devtools-latest/4.46.0/selenium-devtools-latest-4.46.0.jar:/Users/aleena/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v148/4.46.0/selenium-devtools-v148-4.46.0.jar:/Users/aleena/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v149/4.46.0/selenium-devtools-v149-4.46.0.jar:/Users/aleena/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v150/4.46.0/selenium-devtools-v150-4.46.0.jar:/Users/aleena/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.46.0/selenium-edge-driver-4.46.0.jar:/Users/aleena/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.46.0/selenium-firefox-driver-4.46.0.jar:/Users/aleena/.m2/repository/org/seleniumhq/selenium/selenium-http/4.46.0/selenium-http-4.46.0.jar:/Users/aleena/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.46.0/selenium-ie-driver-4.46.0.jar:/Users/aleena/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.46.0/selenium-remote-driver-4.46.0.jar:/Users/aleena/.m2/repository/com/google/guava/guava/33.6.0-jre/guava-33.6.0-jre.jar:/Users/aleena/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/aleena/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/aleena/.m2/repository/com/google/errorprone/error_prone_annotations/2.47.0/error_prone_annotations-2.47.0.jar:/Users/aleena/.m2/repository/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar:/Users/aleena/.m2/repository/io/opentelemetry/opentelemetry-api/1.64.0/opentelemetry-api-1.64.0.jar:/Users/aleena/.m2/repository/io/opentelemetry/opentelemetry-context/1.64.0/opentelemetry-context-1.64.0.jar:/Users/aleena/.m2/repository/io/opentelemetry/opentelemetry-common/1.64.0/opentelemetry-common-1.64.0.jar:/Users/aleena/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.64.0/opentelemetry-exporter-logging-1.64.0.jar:/Users/aleena/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.64.0/opentelemetry-sdk-common-1.64.0.jar:/Users/aleena/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.64.0/opentelemetry-sdk-extension-autoconfigure-spi-1.64.0.jar:/Users/aleena/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.64.0/opentelemetry-sdk-extension-autoconfigure-1.64.0.jar:/Users/aleena/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.64.0/opentelemetry-sdk-trace-1.64.0.jar:/Users/aleena/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.64.0/opentelemetry-sdk-1.64.0.jar:/Users/aleena/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.64.0/opentelemetry-sdk-metrics-1.64.0.jar:/Users/aleena/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.64.0/opentelemetry-sdk-logs-1.64.0.jar:/Users/aleena/.m2/repository/net/bytebuddy/byte-buddy/1.18.11/byte-buddy-1.18.11.jar:/Users/aleena/.m2/repository/org/seleniumhq/selenium/selenium-os/4.46.0/selenium-os-4.46.0.jar:/Users/aleena/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.46.0/selenium-safari-driver-4.46.0.jar:/Users/aleena/.m2/repository/org/seleniumhq/selenium/selenium-support/4.46.0/selenium-support-4.46.0.jar:/Users/aleena/.m2/repository/org/testng/testng/7.12.0/testng-7.12.0.jar:/Users/aleena/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/aleena/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/aleena/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/Users/aleena/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_23.0.1.v20241024-1700/jre/lib"/>
+    <property name="sun.java.command" value="/Users/aleena/eclipse-workspace/com.simpleproject/target/surefire/surefirebooter-20260925132925928_3.jar /Users/aleena/eclipse-workspace/com.simpleproject/target/surefire 2026-09-25T13-29-25_815-jvmRun1 surefire-20260925132925928_1tmp surefire_0-20260925132925928_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/aleena/eclipse-workspace/com.simpleproject/target/test-classes:/Users/aleena/eclipse-workspace/com.simpleproject/target/classes:/Users/aleena/.m2/repository/org/seleniumhq/selenium/selenium-java/4.46.0/selenium-java-4.46.0.jar:/Users/aleena/.m2/repository/org/seleniumhq/selenium/selenium-api/4.46.0/selenium-api-4.46.0.jar:/Users/aleena/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/aleena/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.46.0/selenium-chrome-driver-4.46.0.jar:/Users/aleena/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/aleena/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.46.0/selenium-chromium-driver-4.46.0.jar:/Users/aleena/.m2/repository/org/seleniumhq/selenium/selenium-json/4.46.0/selenium-json-4.46.0.jar:/Users/aleena/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.46.0/selenium-manager-4.46.0.jar:/Users/aleena/.m2/repository/org/seleniumhq/selenium/selenium-devtools-latest/4.46.0/selenium-devtools-latest-4.46.0.jar:/Users/aleena/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v148/4.46.0/selenium-devtools-v148-4.46.0.jar:/Users/aleena/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v149/4.46.0/selenium-devtools-v149-4.46.0.jar:/Users/aleena/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v150/4.46.0/selenium-devtools-v150-4.46.0.jar:/Users/aleena/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.46.0/selenium-edge-driver-4.46.0.jar:/Users/aleena/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.46.0/selenium-firefox-driver-4.46.0.jar:/Users/aleena/.m2/repository/org/seleniumhq/selenium/selenium-http/4.46.0/selenium-http-4.46.0.jar:/Users/aleena/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.46.0/selenium-ie-driver-4.46.0.jar:/Users/aleena/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.46.0/selenium-remote-driver-4.46.0.jar:/Users/aleena/.m2/repository/com/google/guava/guava/33.6.0-jre/guava-33.6.0-jre.jar:/Users/aleena/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/aleena/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/aleena/.m2/repository/com/google/errorprone/error_prone_annotations/2.47.0/error_prone_annotations-2.47.0.jar:/Users/aleena/.m2/repository/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar:/Users/aleena/.m2/repository/io/opentelemetry/opentelemetry-api/1.64.0/opentelemetry-api-1.64.0.jar:/Users/aleena/.m2/repository/io/opentelemetry/opentelemetry-context/1.64.0/opentelemetry-context-1.64.0.jar:/Users/aleena/.m2/repository/io/opentelemetry/opentelemetry-common/1.64.0/opentelemetry-common-1.64.0.jar:/Users/aleena/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.64.0/opentelemetry-exporter-logging-1.64.0.jar:/Users/aleena/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.64.0/opentelemetry-sdk-common-1.64.0.jar:/Users/aleena/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.64.0/opentelemetry-sdk-extension-autoconfigure-spi-1.64.0.jar:/Users/aleena/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.64.0/opentelemetry-sdk-extension-autoconfigure-1.64.0.jar:/Users/aleena/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.64.0/opentelemetry-sdk-trace-1.64.0.jar:/Users/aleena/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.64.0/opentelemetry-sdk-1.64.0.jar:/Users/aleena/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.64.0/opentelemetry-sdk-metrics-1.64.0.jar:/Users/aleena/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.64.0/opentelemetry-sdk-logs-1.64.0.jar:/Users/aleena/.m2/repository/net/bytebuddy/byte-buddy/1.18.11/byte-buddy-1.18.11.jar:/Users/aleena/.m2/repository/org/seleniumhq/selenium/selenium-os/4.46.0/selenium-os-4.46.0.jar:/Users/aleena/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.46.0/selenium-safari-driver-4.46.0.jar:/Users/aleena/.m2/repository/org/seleniumhq/selenium/selenium-support/4.46.0/selenium-support-4.46.0.jar:/Users/aleena/.m2/repository/org/testng/testng/7.12.0/testng-7.12.0.jar:/Users/aleena/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/aleena/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/aleena/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/aleena"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="/Users/aleena/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_23.0.1.v20241024-1700/jre"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/aleena/eclipse-workspace/com.simpleproject"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/aleena/eclipse-workspace/com.simpleproject/target/surefire/surefirebooter-20260925132925928_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="23.0.1+11"/>
+    <property name="user.name" value="aleena"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.7.2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-23.0.1+11"/>
+    <property name="localRepository" value="/Users/aleena/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/n5/sts8lnjx5g3bm_13g89bt0d00000gn/T/"/>
+    <property name="java.version" value="23.0.1"/>
+    <property name="user.dir" value="/Users/aleena/eclipse-workspace/com.simpleproject"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/aleena/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="23.0.1+11"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="verifyTheTextOfpage" classname="testClasses.LandingPageTest" time="0.068">
+    <system-out><![CDATA[Text: POPULAR PRODUCTS
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Sept 25, 2026 1:29:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 153, returning the closest version; found: 150; Please update to a Selenium version that supports CDP version 153
+]]></system-err>
+  </testcase>
+  <testcase name="verifyTheTitleOfPage" classname="testClasses.LandingPageTest" time="0.011">
+    <system-out><![CDATA[Title: Test Store
+]]></system-out>
+    <system-err><![CDATA[Sept 25, 2026 1:29:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 153, returning the closest version; found: 150; Please update to a Selenium version that supports CDP version 153
+]]></system-err>
+  </testcase>
+</testsuite>

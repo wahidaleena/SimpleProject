@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="tests" thread-count="2" name="Parallel Suite">
+<listeners>
+<listener class-name="retry.RetryListener"/>
+<listener class-name="extentReport.TestListener" />
+</listeners>
+	<test name="thread1 test">
+	<parameter name="browser" value="chrome"/>
+
+		<classes>
+			<class name="testClasses.LandingPageTest"/>
+
+		</classes>
+	</test>
+
+	<test name="thread2 test">
+	<parameter name="browser" value="firefox"/>
+
+		<classes>
+			<class name="testClasses.LandingPageTest"/>
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

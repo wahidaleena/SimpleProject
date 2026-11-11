@@ -1,0 +1,4 @@
+# Created at 2026-10-23T12:58:20.539
+
+testClasses.SignInTest.verifySuccessfulLogin() depends on nonexistent method verifyUserRegistration
+

@@ -1,0 +1,22 @@
+
+<suite  name=" Chrome Suite for user Registration">
+  <test name="Tests">
+  <parameter name="browser" value="chrome"/>
+  <groups> 
+  <run>
+  <!-- <include name="start"/>-->
+  <include name="smoke"/> 
+ <!-- <include name="end"/>-->
+  </run>
+  </groups>
+  
+  <classes>
+    <class name="testClasses.UserRegistrationTest"/> 
+    </classes>
+    
+    </test>
+    
+    
+  
+   
+</suite> <!-- Suite -->

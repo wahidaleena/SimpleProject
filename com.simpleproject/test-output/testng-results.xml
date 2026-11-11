@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-11-10T12:07:23 IST" name="Parallel Suite" finished-at="2026-11-10T12:08:12 IST" duration-ms="48935">
+    <groups>
+    </groups>
+    <test started-at="2026-11-10T12:07:23 IST" name="thread2 test" finished-at="2026-11-10T12:08:09 IST" duration-ms="45694">
+      <class name="testClasses.LandingPageTest">
+        <test-method is-config="true" signature="createExtentReport()[pri:0, instance:testClasses.LandingPageTest@2df3b89c]" started-at="2026-11-10T12:07:23 IST" name="createExtentReport" finished-at="2026-11-10T12:07:23 IST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentReport -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LandingPageTest@2df3b89c]" started-at="2026-11-10T12:07:23 IST" name="beforeMethod" finished-at="2026-11-10T12:07:41 IST" duration-ms="17859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyTheTextOfpage()[pri:0, instance:testClasses.LandingPageTest@2df3b89c]" started-at="2026-11-10T12:07:41 IST" name="verifyTheTextOfpage" finished-at="2026-11-10T12:07:41 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheTextOfpage -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.LandingPageTest@2df3b89c]" started-at="2026-11-10T12:07:41 IST" name="afterMethod" finished-at="2026-11-10T12:07:42 IST" duration-ms="898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LandingPageTest@2df3b89c]" started-at="2026-11-10T12:07:42 IST" name="beforeMethod" finished-at="2026-11-10T12:07:53 IST" duration-ms="10983" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyTheTitleOfPage()[pri:1, instance:testClasses.LandingPageTest@2df3b89c]" started-at="2026-11-10T12:07:53 IST" name="verifyTheTitleOfPage" finished-at="2026-11-10T12:07:53 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheTitleOfPage -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.LandingPageTest@2df3b89c]" started-at="2026-11-10T12:07:53 IST" name="afterMethod" finished-at="2026-11-10T12:07:55 IST" duration-ms="1810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LandingPageTest@2df3b89c]" started-at="2026-11-10T12:07:55 IST" name="beforeMethod" finished-at="2026-11-10T12:08:05 IST" duration-ms="10436" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="registerNewUser()[pri:2, instance:testClasses.LandingPageTest@2df3b89c]" started-at="2026-11-10T12:08:05 IST" name="registerNewUser" finished-at="2026-11-10T12:08:08 IST" duration-ms="2471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerNewUser -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.LandingPageTest@2df3b89c]" started-at="2026-11-10T12:08:08 IST" name="afterMethod" finished-at="2026-11-10T12:08:09 IST" duration-ms="1029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testClasses.LandingPageTest -->
+    </test> <!-- thread2 test -->
+    <test started-at="2026-11-10T12:07:23 IST" name="thread1 test" finished-at="2026-11-10T12:08:12 IST" duration-ms="48934">
+      <class name="testClasses.LandingPageTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LandingPageTest@682b2fa]" started-at="2026-11-10T12:07:23 IST" name="beforeMethod" finished-at="2026-11-10T12:07:56 IST" duration-ms="32409" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyTheTextOfpage()[pri:0, instance:testClasses.LandingPageTest@682b2fa]" started-at="2026-11-10T12:07:56 IST" name="verifyTheTextOfpage" finished-at="2026-11-10T12:07:56 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheTextOfpage -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.LandingPageTest@682b2fa]" started-at="2026-11-10T12:07:56 IST" name="afterMethod" finished-at="2026-11-10T12:07:56 IST" duration-ms="517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LandingPageTest@682b2fa]" started-at="2026-11-10T12:07:56 IST" name="beforeMethod" finished-at="2026-11-10T12:08:03 IST" duration-ms="6591" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyTheTitleOfPage()[pri:1, instance:testClasses.LandingPageTest@682b2fa]" started-at="2026-11-10T12:08:03 IST" name="verifyTheTitleOfPage" finished-at="2026-11-10T12:08:03 IST" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheTitleOfPage -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.LandingPageTest@682b2fa]" started-at="2026-11-10T12:08:03 IST" name="afterMethod" finished-at="2026-11-10T12:08:03 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LandingPageTest@682b2fa]" started-at="2026-11-10T12:08:03 IST" name="beforeMethod" finished-at="2026-11-10T12:08:10 IST" duration-ms="7030" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="registerNewUser()[pri:2, instance:testClasses.LandingPageTest@682b2fa]" started-at="2026-11-10T12:08:10 IST" name="registerNewUser" finished-at="2026-11-10T12:08:12 IST" duration-ms="1907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerNewUser -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.LandingPageTest@682b2fa]" started-at="2026-11-10T12:08:12 IST" name="afterMethod" finished-at="2026-11-10T12:08:12 IST" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testClasses.LandingPageTest -->
+    </test> <!-- thread1 test -->
+  </suite> <!-- Parallel Suite -->
+</testng-results>
