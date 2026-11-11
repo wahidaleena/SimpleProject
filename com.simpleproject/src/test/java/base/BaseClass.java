@@ -23,7 +23,7 @@ import utility.UserContext;
 
 public class BaseClass {
 	
-	//to execute parallel execution with listeners threadlocal is safe
+	//to execute parallel execution with listeners Threadlocal is safe
 	private static ThreadLocal<WebDriver> driver=new ThreadLocal<>();
 	//to make the tests run parallel we can change the driver from static variable to an instance variable
 	public Properties prop;
