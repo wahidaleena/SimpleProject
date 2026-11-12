@@ -20,8 +20,7 @@ public class ExcelRead {
 
 	public static String getStringData(int a, int b,String sheetName) throws IOException {
 
-		f = new FileInputStream(System.getProperty("user.home")
-				+ "//eclipse-workspace//com.simpleproject//src//test//resources/excel//Testdata_Testsite.xlsx");
+		f = new FileInputStream("src//test//resources/excel//Testdata_Testsite.xlsx");
 
 		wb = new XSSFWorkbook(f);
 
@@ -36,8 +35,7 @@ public class ExcelRead {
 
 	public static String getIntegerData(int a, int b,String sheetName) throws IOException {
 
-		f = new FileInputStream(System.getProperty("user.home")
-				+ "//eclipse-workspace//com.simpleproject//src//test//resources/excel//Testdata_Testsite.xlsx");
+		f = new FileInputStream("src//test//resources/excel//Testdata_Testsite.xlsx");
 
 		wb = new XSSFWorkbook(f);
 
@@ -51,8 +49,7 @@ public class ExcelRead {
 	}
 	public static String getLastRowsStringData(int cellNumber,String sheetName) throws IOException {
 
-		f = new FileInputStream(System.getProperty("user.home")
-				+ "//eclipse-workspace//com.simpleproject//src//test//resources/excel//Testdata_Testsite.xlsx");
+		f = new FileInputStream("src//test//resources/excel//Testdata_Testsite.xlsx");
 
 		wb = new XSSFWorkbook(f);
 

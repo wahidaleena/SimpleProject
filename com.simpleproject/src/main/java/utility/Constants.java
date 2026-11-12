@@ -9,5 +9,5 @@ public class Constants {
 	public static final String blankEmail="";
 	public static final String errMsgBlankFieldFirefox="Please fill out this field.";
 	public static final String errMsgBlankFieldChrome="Please fill in this field.";
-	public static final String filepath="//eclipse-workspace//com.simpleproject//src//test//resources/excel//Testdata_Testsite.xlsx";
+	public static final String filepath="src//test//resources/excel//Testdata_Testsite.xlsx";
 }

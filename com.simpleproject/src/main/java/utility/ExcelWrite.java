@@ -16,7 +16,7 @@ public class ExcelWrite {
 public static synchronized void writeDataIntoExcelFile(
         String fullname, String email, String password) throws IOException {
 
-    String filePath = System.getProperty("user.home") + Constants.filepath;
+    String filePath = Constants.filepath;
     File file = new File(filePath);
 
     Workbook workbook;
