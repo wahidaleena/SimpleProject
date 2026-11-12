@@ -14,7 +14,7 @@ public class LandingPageTest extends BaseClass {
 	LandingPage lp;
 	UserRegistration ur;
 	
-	@Test(priority=0,description="To verify the text of the page")
+	@Test(priority=0,description="To verify the text heading in the home page")
 	public void verifyTheTextOfpage() {
 		
 		lp=new LandingPage(getDriver());
