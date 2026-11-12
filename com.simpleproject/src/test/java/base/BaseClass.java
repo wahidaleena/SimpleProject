@@ -43,7 +43,7 @@ public static void setDriver(WebDriver webdriver) {
 	public void readProperty()throws IOException {
 		
 		prop=new Properties();
-		FileInputStream f=new FileInputStream(System.getProperty("user.home")+"//eclipse-workspace//com.simpleproject//src//main//resources//config//config.properties");
+		FileInputStream f=new FileInputStream("src//main//resources//config//config.properties");
 		prop.load(f);
 	}
 
