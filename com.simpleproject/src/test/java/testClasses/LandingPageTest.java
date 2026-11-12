@@ -14,7 +14,7 @@ public class LandingPageTest extends BaseClass {
 	LandingPage lp;
 	UserRegistration ur;
 	
-	@Test(priority=0,description="To verify the text of page")
+	@Test(priority=0,description="To verify the text of the page")
 	public void verifyTheTextOfpage() {
 		
 		lp=new LandingPage(getDriver());
@@ -24,7 +24,7 @@ public class LandingPageTest extends BaseClass {
 		Assert.assertEquals(result, expectedResult,"Page text is not matching");
 		
 	}
-	@Test(priority = 1,description="To verify the title of page")
+	@Test(priority = 1,description="To verify the title of the page")
 	public void verifyTheTitleOfPage() {
 		
 		lp=new LandingPage(getDriver());
