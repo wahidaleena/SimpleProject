@@ -1,5 +1,9 @@
 
 <suite  name="Cross-browser Regression Suite">
+<listeners>
+<listener class-name="retry.RetryListener"/>
+<listener class-name="extentReport.TestListener" />
+</listeners>
   <test name="chromeTest">
   <parameter name="browser" value="chrome"/>
   

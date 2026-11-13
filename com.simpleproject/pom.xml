@@ -78,7 +78,7 @@
 				<version>3.0.0-M7</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>testNG_groups.xml</suiteXmlFile>
+						<suiteXmlFile>testNG_parallel.xml</suiteXmlFile>
 						<suiteXmlFile>cross_browser_testing.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
