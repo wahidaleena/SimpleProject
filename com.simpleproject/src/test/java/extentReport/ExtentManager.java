@@ -20,7 +20,7 @@ public class ExtentManager {
             createInstance();
         return extent;
     }
-
+    
     // Create an extent report instance
     public static ExtentReports createInstance() {
         platform = getCurrentPlatform();

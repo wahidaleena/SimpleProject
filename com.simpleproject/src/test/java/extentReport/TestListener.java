@@ -1,6 +1,7 @@
 package extentReport;
 
 import java.io.File;
+
 import java.io.IOException;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
@@ -23,6 +24,7 @@ import com.aventstack.extentreports.ExtentTest;
 import base.BaseClass;
 import retry.RetryAnalyzer;
 
+
 public class TestListener implements ITestListener {
 	
 	/**
@@ -35,6 +37,7 @@ public class TestListener implements ITestListener {
 																			// ExtentReports class.
 	// to get each test
 	private static ThreadLocal<ExtentTest> test = new ThreadLocal<>();
+	
 
 	@Override
 	public synchronized void onStart(ITestContext context) {
@@ -45,9 +48,11 @@ public class TestListener implements ITestListener {
 		System.out.println("Extent Reports Test Suite is ending!");
 		// stop event
 		ExtentManager.extent.flush();
+
 		System.out.println("Extent Report flushed/saved successfully");
 	}
 
+	
 	// when 1st test case is executed
 	@Override
 	public synchronized void onTestStart(ITestResult result) {
