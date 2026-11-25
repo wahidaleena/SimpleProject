@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Master Suite">
+
+    <listeners>
+        <listener class-name="retry.RetryListener"/>
+        <listener class-name="extentReport.TestListener"/>
+    </listeners>
+
+    <suite-files>
+        <suite-file path="testNG_groups.xml"/>
+        <suite-file path="cross_browser_testing.xml"/>
+    </suite-files>
+
+</suite>
