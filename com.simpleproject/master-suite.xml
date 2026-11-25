@@ -8,7 +8,7 @@
     </listeners>
 
     <suite-files>
-        <suite-file path="testNG_groups.xml"/>
+        <suite-file path="testNG_parallel.xml"/>
         <suite-file path="cross_browser_testing.xml"/>
     </suite-files>
 
