@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite parallel="tests" thread-count="2" name="Parallel Suite">
-<listeners>
-<listener class-name="retry.RetryListener"/>
-<listener class-name="extentReport.TestListener" />
-</listeners>
+
 	<test name="thread1 test">
 	<parameter name="browser" value="chrome"/>
 
