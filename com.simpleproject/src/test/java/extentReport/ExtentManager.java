@@ -22,10 +22,20 @@ public class ExtentManager {
     }
     
     // Create an extent report instance
-    public static ExtentReports createInstance() {
+    public static synchronized ExtentReports createInstance() {
+
+        // Reuse existing instance if already created
+        if (extent != null) {
+            System.out.println("Reusing existing ExtentReports instance");
+            return extent;
+        }
+
         platform = getCurrentPlatform();
+
         String fileName = getReportFileLocation(platform);
+
         ExtentSparkReporter htmlReporter = new ExtentSparkReporter(fileName);
+
         htmlReporter.config().setTheme(Theme.STANDARD);
         htmlReporter.config().setDocumentTitle(fileName);
         htmlReporter.config().setEncoding("utf-8");
@@ -33,11 +43,14 @@ public class ExtentManager {
 
         extent = new ExtentReports();
         extent.attachReporter(htmlReporter);
-        System.out.println("The complete path of file is: "+fileName);
-        System.out.println("Extent report is successfully created with the path and filename: " +macPath+reportFileName);
+
+        System.out.println("ExtentReports instance created: "
+                + System.identityHashCode(extent));
+
+        System.out.println("Report path: " + fileName);
+
         return extent;
     }
-
     // Select the extent report file location based on platform
     private static String getReportFileLocation(Platform platform) {
         String reportFileLocation = null;

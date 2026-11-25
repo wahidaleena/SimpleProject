@@ -40,6 +40,12 @@ public class TestListener implements ITestListener,IExecutionListener {
 	private static ThreadLocal<ExtentTest> test = new ThreadLocal<>();
 	
 	@Override
+	public void onExecutionStart() {
+	    System.out.println("TestNG execution starting...");
+	    ExtentManager.createInstance();
+	}
+	
+	@Override
 	public void onExecutionFinish() {
         System.out.println("All TestNG suites have finished!");
 
