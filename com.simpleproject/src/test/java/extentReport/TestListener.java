@@ -13,6 +13,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.io.FileHandler;
 import org.testng.IAnnotationTransformer;
+import org.testng.IExecutionListener;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -25,7 +26,7 @@ import base.BaseClass;
 import retry.RetryAnalyzer;
 
 
-public class TestListener implements ITestListener {
+public class TestListener implements ITestListener,IExecutionListener {
 	
 	/**
 	 * @author aleena wahid
@@ -38,6 +39,14 @@ public class TestListener implements ITestListener {
 	// to get each test
 	private static ThreadLocal<ExtentTest> test = new ThreadLocal<>();
 	
+	@Override
+	public void onExecutionFinish() {
+        System.out.println("All TestNG suites have finished!");
+
+        ExtentManager.extent.flush();
+
+        System.out.println("Extent Report flushed successfully!");
+    }
 
 	@Override
 	public synchronized void onStart(ITestContext context) {
@@ -47,9 +56,9 @@ public class TestListener implements ITestListener {
 	public synchronized void onFinish(ITestContext context) {
 		System.out.println("Extent Reports Test Suite is ending!");
 		// stop event
-		ExtentManager.extent.flush();
+		
 
-		System.out.println("Extent Report flushed/saved successfully");
+	
 	}
 
 	
