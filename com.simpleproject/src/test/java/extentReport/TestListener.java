@@ -80,8 +80,20 @@ public class TestListener implements ITestListener,IExecutionListener {
 
 		System.out.println((result.getMethod().getMethodName() + " failed!"));
 		ExtentTest extentTest = test.get();
-		extentTest.fail(result.getThrowable());
 
+		if (extentTest == null) {
+		    System.out.println("WARNING: ExtentTest is null for: "
+		            + result.getMethod().getMethodName());
+
+		    extentTest = ExtentManager.extent.createTest(
+		            result.getMethod().getMethodName(),
+		            result.getMethod().getDescription()
+		    );
+
+		    test.set(extentTest);
+		}
+
+		extentTest.fail(result.getThrowable());
 		// Capture and attach screenshot
 		String screenshotPath = captureScreenshot(result.getMethod().getMethodName());
 		if (screenshotPath != null) {
